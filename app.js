@@ -18,7 +18,6 @@
                 return;
             }
             var lunchArray = $scope.lunchList.split(',');
-            console.log(lunchArray);
             var count=0;
             for (var x in lunchArray){
                 if(lunchArray[x].trim() != ''){

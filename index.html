@@ -19,13 +19,13 @@
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control"
              ng-model="lunchList"
-             style="border-color: {{boxColor}}">
+             style="border-color: {{color}}">
              Note: This does not consider empty items as an item towards the count.
          </div>
          <div class="form-group">
              <button class="btn btn-default" ng-click="checkITM()">Check If Too Much</button>
          </div>
-         <div class="form-group message" style="color: {{msgColor}}">
+         <div class="form-group message" style="color: {{color}}">
            {{message}}
          </div>
    </div>
